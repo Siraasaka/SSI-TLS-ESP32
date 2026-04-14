@@ -1,0 +1,1388 @@
+=== Serial Log: COM7 @ 115200 baud ===
+=== Started: 2026-04-12 15:04:51.146454 ===
+
+_BOOT)
+conf
+wolfSSL TLS Server Example Startup.
+show_memory() not implemented for this platform
+Connecting to WiFi Tahu.6.6
+.6.1
+.1.1
+.1
+.1.1
+.1.1.1
+.1.1
+.1.1.0 Connected!
+********************************************************
+wolfSSL Example Server IP = 10.138.2.152
+********************************************************
+Setup network complete.
+Waiting for time to be set...
+Waiting for time to be set...
+Waiting for time to be set...
+Waiting for time to be set...
+Waiting for time to be set...
+WOLFSSL_USER_SETTINGS_ID: Arduino user_settings.h v5.8.2
+wolfSSL client code disabled to save space.
+wolfSSL Debugging is available! (DEBUG_WOLFSSL)
+Enable verbose messages with wolfSSL_Debugging_ON
+or define DEBUG_WOLFSSL_MESSAGES_ON
+wolfSSL TLS NO_SESSION_CACHE
+Successfully called wolfSSL_Init
+Here we go!
+Initializing certificates...
+show_memory() not implemented for this platform
+Initializing certificates...
+Success: use certificate: server_cert_der_2048
+Success: use private key buffer: server_key_der_2048
+Success: load CA verify cert: ca_cert_der_2048
+Completed Arduino setup()
+Begin Server... (waiting for remote client to connect)
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14035 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 1/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14175 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 2/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 3/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 4/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 5/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14174 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 6/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 7/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 8/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14686 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 9/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14070 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 10/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 11/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 12/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 13/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13665 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 14/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13913 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 15/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 16/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13868 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 17/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13663 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 18/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14162 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 19/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13912 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 20/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14276 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 21/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 22/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13971 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 23/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13865 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 24/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14117 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 25/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 26/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13966 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 27/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 28/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 29/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13864 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 30/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13869 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 31/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14277 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 32/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 33/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14277 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 34/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14322 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 35/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 36/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 37/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13922 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 38/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14070 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 39/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 40/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14070 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 41/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13913 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 42/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14069 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 43/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14070 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 44/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 45/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14175 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 46/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13869 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 47/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 48/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 49/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14175 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 50/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14276 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 51/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13663 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 52/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 53/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14175 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 54/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14073 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 55/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13922 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 56/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14275 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 57/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14176 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 58/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14073 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 59/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 60/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 61/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14070 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 62/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14273 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 63/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14276 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 64/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 65/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13970 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 66/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 67/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 16319 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 68/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13970 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 69/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14274 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 70/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 16941 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 71/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 72/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13969 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 73/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13864 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 74/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14276 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 75/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 76/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13970 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 77/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 78/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13865 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 79/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13911 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 80/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13969 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 81/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 82/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14067 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 83/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14070 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 84/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14219 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 85/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14073 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 86/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 87/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14282 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 88/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14075 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 89/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14070 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 90/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14117 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 91/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13922 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 92/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13868 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 93/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 94/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 16940 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 95/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14177 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 96/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 97/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13865 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 98/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13661 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 99/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14176 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 100/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14275 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 101/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 102/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 103/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13577 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 104/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 105/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 106/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14081 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 107/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14174 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 108/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 109/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14276 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 110/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13864 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 111/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14176 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 112/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 113/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 114/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14276 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 115/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14071 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 116/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13865 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 117/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14274 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 118/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13868 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 119/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14073 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 120/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13912 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 121/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 16737 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 122/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14023 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 123/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 17349 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 124/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 125/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13868 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 126/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14175 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 127/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13664 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 128/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 129/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 130/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14174 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 131/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 132/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14073 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 133/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13867 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 134/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13970 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 135/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13865 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 136/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13913 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 137/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13968 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 138/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13868 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 139/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13920 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 140/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14072 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 141/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14379 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 142/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 143/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14275 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 144/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 145/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14177 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 146/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14068 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 147/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13866 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 148/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 13869 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read: Sending reply...
+Reply sent!
+Shutdown!
+[BM] Round 149/150
+Waiting for next connection.
+Have Client
+Client connected from remote IP: 10.138.2.165
+[BM] Server handshake: 14226 ms
+SSL cipher suite is TLS_AES_128_GCM_SHA256
+Server Read:
+
+=== Stopped: 2026-04-12 15:58:32.787520 ===

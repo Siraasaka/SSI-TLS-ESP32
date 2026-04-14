@@ -1,0 +1,2936 @@
+=== Serial Log: COM14 @ 115200 baud ===
+=== Started: 2026-04-12 00:32:16.146350 ===
+
+igsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:4980
+load:0x40078000,len:16612
+load:0x40080400,len:3480
+entry 0x400805b4
+====================================
+Baseline mTLS 1.3 Client
+(X.509 RSA-2048)
+====================================
+...............
+[WiFi] IP: 10.138.2.165
+[Cert] Client cert loaded OK
+[Cert] Client key loaded OK
+[Cert] CA cert loaded OK
+[Client] Target: 10.138.2.152:8443
+Round 0=DEBUG, 1-1000=BENCH
+=== ROUND 0: DEBUG ===
+wolfSSL Entering wolfSSL_new
+wolfSSL Entering ReinitSSL
+RNG_HEALTH_TEST_CHECK_SIZE = 128
+sizeof(seedB_data)         = 128
+wolfSSL Entering SetSSL_CTX
+wolfSSL Entering wolfSSL_NewSession
+InitSSL done. return 0 (success)
+wolfSSL_new InitSSL success
+wolfSSL Leaving wolfSSL_new InitSSL =, return 0
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering SendTls13ClientHello
+No will to use RPK/VC cert
+No will to accept RPK/VC cert
+Adding signature algorithms extension
+Adding supported versions extension
+wolfSSL Entering EccMakeKey
+wolfSSL Leaving EccMakeKey, return 0
+growing output buffer
+PSK Key Exchange Modes extension to write
+Key Share extension to write
+Supported Versions extension to write
+Signature Algorithms extension to write
+Supported Groups extension to write
+Shrinking output buffer
+wolfSSL Leaving SendTls13ClientHello, return 0
+connect state: CLIENT_HELLO_SENT
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.2 or lower
+wolfSSL Entering wolfSSL_connect
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+Server state up to needed state.
+Progressing server state...
+ProcessReply...
+wolfSSL Entering RetrySendAlert
+growing input buffer
+received record layer msg
+got HANDSHAKE
+wolfSSL Entering wolfSSL_get_options
+wolfSSL Entering DoTls13HandShakeMsg
+wolfSSL Entering EarlySanityCheckMsgReceived
+wolfSSL Leaving EarlySanityCheckMsgReceived, return 0
+wolfSSL Entering DoTls13HandShakeMsgType
+processing server hello
+wolfSSL Entering DoTls13ServerHello
+Supported Versions extension received
+Key Share extension received
+wolfSSL Entering EccSharedSecret
+wolfSSL Leaving EccSharedSecret, return 0
+Skipping Supported Versions - already processed
+wolfSSL Leaving Leaving TLSX_Parse, return 0
+wolfSSL Entering VerifyClientSuite
+wolfSSL Leaving DoTls13ServerHello, return 0
+Derive Early Secret
+Derive Handshake Secret
+Derive Client Handshake Secret
+Derive Server Handshake Secret
+Derive Client Key
+Derive Server Key
+Derive Client IV
+Derive Server IV
+wolfSSL Leaving DoTls13HandShakeMsgType(), return 0
+wolfSSL Leaving DoTls13HandShakeMsg, return 0
+Shrinking input buffer
+ProcessReply done.
+Progressing server state...
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+connect state: HELLO_AGAIN
+connect state: HELLO_AGAIN_REPLY
+wolfSSL Entering RetrySendAlert
+growing input buffer
+wolfSSL Entering DecryptTls13
+received record layer msg
+got HANDSHAKE
+wolfSSL Entering wolfSSL_get_options
+wolfSSL Entering DoTls13HandShakeMsg
+wolfSSL Entering EarlySanityCheckMsgReceived
+wolfSSL Leaving EarlySanityCheckMsgReceived, return 0
+wolfSSL Entering DoTls13HandShakeMsgType
+processing encrypted extensions
+wolfSSL Entering DoTls13EncryptedExtensions
+wolfSSL Leaving Leaving TLSX_Parse, return 0
+wolfSSL Leaving DoTls13EncryptedExtensions, return 0
+wolfSSL Leaving DoTls13HandShakeMsgType(), return 0
+wolfSSL Leaving DoTls13HandShakeMsg, return 0
+Shrinking input buffer
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+growing input buffer
+wolfSSL Entering DecryptTls13
+received record layer msg
+got HANDSHAKE
+wolfSSL Entering wolfSSL_get_options
+wolfSSL Entering DoTls13HandShakeMsg
+wolfSSL Entering EarlySanityCheckMsgReceived
+wolfSSL Leaving EarlySanityCheckMsgReceived, return 0
+wolfSSL Entering DoTls13HandShakeMsgType
+processing certificate request
+wolfSSL Entering DoTls13CertificateRequest
+Signature Algorithms extension received
+wolfSSL Leaving Leaving TLSX_Parse, return 0
+wolfSSL Leaving DoTls13CertificateRequest, return 0
+wolfSSL Leaving DoTls13HandShakeMsgType(), return 0
+wolfSSL Leaving DoTls13HandShakeMsg, return 0
+Shrinking input buffer
+wolfSSL Entering RetrySendAlert
+growing input buffer
+wolfSSL Entering DecryptTls13
+received record layer msg
+got HANDSHAKE
+wolfSSL Entering wolfSSL_get_options
+wolfSSL Entering DoTls13HandShakeMsg
+wolfSSL Entering EarlySanityCheckMsgReceived
+wolfSSL Leaving EarlySanityCheckMsgReceived, return 0
+wolfSSL Entering DoTls13HandShakeMsgType
+processing certificate
+wolfSSL Entering DoTls13Certificate
+wolfSSL Entering ProcessPeerCerts
+Loading peer's cert chain
+Parsing 0 bytes of cert extensions
+wolfSSL Leaving Leaving TLSX_Parse, return 0
+Put another cert into chain
+Verifying Peer's cert
+Getting Cert Name
+Getting Cert Name
+wolfSSL Entering GetAlgoId
+wolfSSL Entering DecodeCertExtensions
+wolfSSL Entering DecodeSubjKeyId
+wolfSSL Entering DecodeAuthKeyId
+wolfSSL Entering DecodeBasicCaConstraint
+wolfSSL Entering DecodeAltNames
+Unsupported name type, skipping
+wolfSSL Entering DecodeExtKeyUsage
+CA found
+wolfSSL Entering ConfirmSignature
+mp_to_unsigned_bin_len_ct...
+wolfSSL Leaving ConfirmSignature, return 0
+Verified Peer's cert
+wolfSSL Leaving ProcessPeerCerts, return 0
+wolfSSL Leaving DoTls13Certificate, return 0
+wolfSSL Leaving DoTls13HandShakeMsgType(), return 0
+wolfSSL Leaving DoTls13HandShakeMsg, return 0
+Shrinking input buffer
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wol SSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+growing input buffer
+wolfSSL Entering DecryptTls13
+received record layer msg
+got HANDSHAKE
+wolfSSL Entering wolfSSL_get_options
+wolfSSL Entering DoTls13HandShakeMsg
+wolfSSL Entering EarlySanityCheckMsgReceived
+wolfSSL Leaving EarlySanityCheckMsgReceived, return 0
+wolfSSL Entering DoTls13HandShakeMsgType
+processing certificate verify
+wolfSSL Entering DoTls13CertificateVerify
+Peer sent RSA sig
+Doing RSA peer cert verify
+wolfSSL Entering RsaVerify
+mp_to_unsigned_bin_len_ct...
+wolfSSL Using RSA PSS un-padding
+wolfSSL Leaving RsaVerify, return 64
+wolfSSL Leaving DoTls13CertificateVerify, return 0
+wolfSSL Leaving DoTls13HandShakeMsgType(), return 0
+wolfSSL Leaving DoTls13HandShakeMsg, return 0
+Shrinking input buffer
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+wolfSSL error occurred, error = -323
+wolfSSL Entering wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -323
+TLS 1.3
+wolfSSL Entering wolfSSL_connect_TLSv13
+wolfSSL Entering ReinitSSL
+wolfSSL Entering RetrySendAlert
+wolfSSL Entering RetrySendAlert
+growing input buffer
+wolfSSL Entering DecryptTls13
+received record layer msg
+got HANDSHAKE
+wolfSSL Entering wolfSSL_get_options
+wolfSSL Entering DoTls13HandShakeMsg
+wolfSSL Entering EarlySanityCheckMsgReceived
+wolfSSL Leaving EarlySanityCheckMsgReceived, return 0
+wolfSSL Entering DoTls13HandShakeMsgType
+processing finished
+wolfSSL Entering DoTls13Finished
+Derive Finished Secret
+Derive Finished Secret
+wolfSSL Leaving DoTls13Finished, return 0
+Derive Master Secret
+Derive Client Traffic Secret
+Derive Server Traffic Secret
+Derive Client Key
+Derive Server Key
+Derive Client IV
+Derive Server IV
+wolfSSL Leaving DoTls13HandShakeMsgType(), return 0
+wolfSSL Leaving DoTls13HandShakeMsg, return 0
+Shrinking input buffer
+connect state: FIRST_REPLY_DONE
+connect state: FIRST_REPLY_FIRST
+connect state: FIRST_REPLY_SECOND
+wolfSSL Entering SendTls13Certificate
+growing output buffer
+wolfSSL Entering BuildTls13Message
+wolfSSL Entering EncryptTls13
+wolfSSL Leaving BuildTls13Message, return 0
+Shrinking output buffer
+wolfSSL Leaving SendTls13Certificate, return 0
+sent: certificate
+connect state: FIRST_REPLY_THIRD
+wolfSSL Entering SendTls13CertificateVerify
+growing output buffer
+Trying RSA private key
+Using RSA private key
+wolfSSL Entering RsaSign
+wolfSSL Using RSA PSS padding
+m gned_bin_len_ct...
+wolfSSL Leaving RsaSign, return 0
+wolfSSL Entering VerifyRsaSign
+mp_to_unsigned_bin_len_ct...
+wolfSSL Using RSA PSS un-padding
+wolfSSL Leaving VerifyRsaSign, return 0
+wolfSSL Entering BuildTls13Message
+wolfSSL Entering EncryptTls13
+wolfSSL Leaving BuildTls13Message, return 0
+Shrinking output buffer
+wolfSSL Leaving SendTls13CertificateVerify, return 0
+sent: certificate verify
+connect state: FIRST_REPLY_FOURTH
+wolfSSL Entering SendTls13Finished
+growing output buffer
+wolfSSL Ent ring BuildTls13Message
+wolfSSL Entering EncryptTls13
+wolfSSL Leaving BuildTls1 Message, return 0
+Derive Resumption Secret
+Shrinking output buffer
+wolfSSL Leaving SendTls13Finished, return 0
+sent: finished
+connect state: FINISHED_DON 
+wolfSSL Entering FreeHandshakeResources
+PSK Key Exchange Modes extension free
+Key Share extension free
+Supported Versions extension free
+Signature Algorithms extension to free
+Supported Groups extension free
+wolfSSL Leaving wolfSSL_connect_TLSv13, return 1
+wolfSSL Entering wolfSSL_read
+wolfSSL Entering wolfSSL_read_internal
+wolfSSL Entering ReceiveData
+wolfSSL Entering RetrySendAlert
+growing input buffer
+Peer reset or closed, connection done
+wolfSSL error occurred, error = -397
+wolfSSL Leaving wolfSSL_read_internal, return 0
+wolfSSL Enterin  wolfSSL_get_error
+wolfSSL Leaving wolfSSL_get_error, return -397
+wolfSSL Entering wolfSSL_write
+wolfSSL Entering wolfSSL_write
+wolfSSL Entering RetrySendAlert
+growing output buffer
+wolfSSL Entering BuildTls13Message
+wolfSSL Entering EncryptTls13
+wolfSSL Leaving BuildTls13Message, return 0
+wolfSSL error occurred, error = -308
+wolfSSL error occurred, error = -397
+wolfSSL Leaving wolfSSL_write, return 0
+====================================
+mTLS HANDSHAKE SUCCESS!
+Time: 13996 ms
+Cipher: TLS13-AES128-GCM-SHA256
+Server:
+====================================
+Debug OK. Starting benchmark...
+wolfSSL Entering wolfSSL_shutdown
+wolfSSL Leaving wolfSSL_shutdown, return -1
+wolfSSL Entering wolfSSL_free
+Free SSL: 0x3ffd33c4
+Free'ing client ssl
+Shrinking input buffer
+Shrinking output buffer
+wolfSSL Entering wolfSSL_FreeSession
+wolfSSL_FreeSession full free
+CTX ref count not 0 yet, no free
+wolfSSL Leaving wolfSSL_free, return 0
+1,13833
+2,13830
+,13833
+4,14038
+5,13638
+6,13833
+7,13831
+8,13832
+,13840
+0,14037
+11,13839
+12,13732
+13,13840
+14,13830
+15,13833
+16,13936
+17,16095
+18,13831
+19,15890
+20,13943
+21,13832
+22,14037
+23,14037
+4,13851
+25,13832
+26,13832
+27,13833
+28,13832
+29,14043
+30,13828
+31,15071
+32,13833
+33,13832
+4,14037
+35,13875
+36,13833
+37,13936
+38,13832
+39,13833
+0,14038
+41,13736
+42,13832
+43,13840
+44,13831
+45,14058
+46,13786
+47,13832
+48,13832
+49,14037
+50,14046
+1,13833
+52,13832
+53,13833
+54,13944
+55,13832
+56,14036
+57,14038
+58,13737
+59,13845
+60,13833
+61,16095
+62,13936
+63,13833
+64,13832
+65,14037
+66,13936
+67,14038
+68,13830
+69,14037
+70,13832
+71,13833
+72,13833
+73,13638
+74,13832
+75,14036
+76,13832
+77,13830
+78,15890
+79,14037
+80,13830
+81,13833
+82,13841
+83,13936
+84,13832
+85,13831
+86,14045
+8 38
+88,13833
+89,14045
+,14037
+91,13852
+92,13831
+93,13832
+94,13832
+95,14036
+96,13832
+97,14037
+98,14038
+99,13833
+--- Progress: 100/150 ---
+100,13833
+101,13833
+102,13833
+103,14037
+104,13885
+105,13839
+106,13839
+107,13839
+108,14038
+109,13842
+110,14037
+111,14036
+112,13943
+113,13833
+114,13638
+15,13832
+116,13833
+117,13843
+118,13832
+119,13831
+120,14046
+121,14038
+122,13833
+123,13832
+124,13832
+125,13535
+126,13832
+127,13832
+128,13876
+129,13840
+130,13839
+131,14030
+132,13831
+133,13839
+134,13833
+135,13832
+136,14037
+137,13876
+138,14036
+139,14038
+140,13834
+141,13833
+142,14037
+143,13832
+144,13832
+45,13833
+146,13832
+147,13830
+148,13832
+149,14148
+150,13833
+========================================
+BASELINE mTLS BENCHMARK RESULTS
+Samples: 150
+========================================
+Mean:   13948.09 ms
+Median: 13833.00 ms
+Min:    13535 ms
+Max:    16095 ms
+StdDev: 366.56 ms
+P5:     13786 ms
+P95:    14046 ms
+Total:  2092214 ms
+========================================
+--- CSV DATA (round,ms) ---
+1,13833
+2,13830
+3,13833
+4,14038
+5,13638
+6,13833
+7,13831
+8,13832
+9,13840
+10,14037
+11,13839
+12,13732
+13,13840
+14,13830
+15,13833
+16,13936
+17,16095
+18,13831
+19,15890
+20,13943
+21,13832
+22,14037
+23,14037
+24,13851
+25,13832
+26,13832
+27,13833
+28,13832
+29,14043
+30,13828
+31,15071
+32,13833
+33,13832
+34,14037
+35,13875
+36,13833
+37,13936
+38,13832
+39,13833
+40,14038
+41,13736
+42,13832
+43,13840
+44,13831
+45,14058
+46,13786
+47,13832
+48,13832
+49,14037
+50,14046
+51,13833
+52,13832
+53,13833
+54,13944
+55,13832
+56,14036
+57,14038
+58,13737
+59,13845
+60,13833
+61,16095
+62,13936
+63,13833
+64,13832
+65,14037
+66,13936
+67,14038
+68,13830
+69,14037
+70,13832
+71,13833
+72,13833
+73,13638
+74,13832
+75,14036
+76,13832
+77,13830
+78,15890
+79,14037
+80,13830
+81,13833
+82,13841
+83,13936
+84,13832
+85,13831
+86,14045
+87,14038
+88,13833
+89,14045
+90,14037
+91,13852
+92,13831
+93,13832
+94,13832
+95,14036
+96,13832
+97,14037
+98,14038
+99,13833
+100,13833
+101,13833
+102,13833
+103,14037
+104,13885
+105,13839
+106,13839
+107,13839
+108,14038
+109,13842
+110,14037
+111,14036
+112,13943
+113,13833
+114,13638
+115,13832
+116,13833
+117,13843
+118,13832
+119,13831
+120,14046
+121,14038
+122,13833
+123,13832
+124,13832
+125,13535
+126,13832
+127,13832
+128,13876
+129,13840
+130,13839
+131,14030
+132,13831
+133,13839
+134,13833
+135,13832
+136,14037
+137,13876
+138,14036
+139,14038
+140,13834
+141,13833
+142,14037
+143,13832
+144,13832
+145,13833
+146,13832
+147,13830
+148,13832
+149,14148
+150,13833
+--- END CSV ---
+
+=== Stopped: 2026-04-12 01:11:23.064971 ===
