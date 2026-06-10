@@ -1,0 +1,13 @@
+# Exclude file ZIP besar
+*.zip
+*.rar
+
+# Arduino build artifacts
+build/
+*.elf
+*.bin
+*.hex
+
+# Windows
+Thumbs.db
+Desktop.ini
